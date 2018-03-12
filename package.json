@@ -1,0 +1,26 @@
+{
+	"name": "blumeix-r-engine",
+	"description": "Node.js interface to trigger R analytics on bluemix.",
+	"author": "T S Ghosh <tsg.tuhin@gmail.com>",
+	"keywords": [
+        "bluemix",
+        "r",
+        "js interface",
+        "analytics"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/tsghosh/Bluemix-R-Engine.git"
+	},
+	"version": "0.0.1",
+	"license": "MIT",
+	"private": true,
+	"scripts": {
+		"start": "node app.js"
+	},
+	"devDependencies": {
+	},
+	"dependencies": {
+		"node-rest-client":"3.1.0"
+	}
+}
