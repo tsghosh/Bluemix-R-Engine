@@ -31,5 +31,3 @@ module.exports = function(username, password) {
 
 	return prototype;
 }
-
-

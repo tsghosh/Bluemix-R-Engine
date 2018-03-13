@@ -6,7 +6,6 @@ var restClient = global.local_require('/client/restclient');
 
 var dashdbCreds = envUtils.getCredentials('dashDB');
 
-
 module.exports = function() {
 	var base_uri = 'https://awh-yp-small03.services.dal.bluemix.net:8443/dashdb-api/rscript';
 	var username = 'x-tuhin-x';
