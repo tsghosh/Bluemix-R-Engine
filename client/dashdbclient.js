@@ -2,9 +2,7 @@
  * REST API Client for State Management Engine
  */
 
-var restClient = global.local_require('/client/restclient');
-
-var dashdbCreds = envUtils.getCredentials('dashDB');
+var restClient = require('/client/restclient');
 
 module.exports = function() {
 	var base_uri = 'https://awh-yp-small03.services.dal.bluemix.net:8443/dashdb-api/rscript';

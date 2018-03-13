@@ -2,7 +2,7 @@
  * invoke remote R Job
  */
 'use strict';
-var dashdbClient = global.local_require('/client/dashdbclient');
+var dashdbClient = require('/client/dashdbclient');
 var rClient = dashdbClient();
 
 rClient.post('/analytics/r/stat_calc.R',{},function(err,data){
